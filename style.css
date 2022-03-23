@@ -33,7 +33,7 @@ header nav ul li a{
 header nav ul li:hover> a{
     background-color: #44bd32;
     color:white;
-
+    
 }
 header nav ul li{
     position: relative;
@@ -66,6 +66,7 @@ header nav ul li ul {
 
 header nav ul li:hover ul{
     display: block;
+    
    
   
 }
@@ -87,5 +88,129 @@ header nav ul li ul:last-child{
     .main {
         width: 500px;
         margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
     
+    .from {
+        background-color: #ddd;
+        padding: 20px;
+        margin-top: 4em;
+        box-sizing: border-box;
+        width: 600px;
+        justify-content: center;
+        box-sizing: border-box;
+        margin: 0 auto;
+        border-radius: 10px;
+    
+    }
+    .from input[type="text"] {display: block;padding: 5px;text-align: center;}
+
+    input[type="submit"] {
+        width: 100%;
+        padding: 15px;
+        background-color: #45a049;
+        border: none;
+        box-shadow: 2px 3px antiquewhite;
+        margin-top: 22px;
+        color: white;
+        text-transform: capitalize;
+        font-size: 18px;
+        font-family: fantasy;
+        letter-spacing: 5px;
+        border-radius: 8px;
+    }
+    .from input[type=text] {font-size: 12px;padding-right: 185px;padding-top: 15px;border-radius: 6px;border: none;margin-top: 10px;margin-bottom: 13px;
+        text-transform: capitalize;
+        letter-spacing: 5px;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: green;
+    }
+    span {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background-color: #ddd;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 50%;
+    }
+   body {
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: conic-gradient(red, yellow, green, blue, black);   }
+   .main{
+    box-shadow: -1px -5px 63px 2px rgba(255,255,255,0.49);
+-webkit-box-shadow: -1px -5px 63px 2px rgba(255,255,255,0.49);
+-moz-box-shadow: -1px -5px 63px 2px rgba(255,255,255,0.49);
+   }
+.thumb {
+    position: relative;
+ }
+
+span {
+    position: absolute;
+    top: 13px;
+    right: 15px;
+    opacity: .65;
+    color: green;
+    font-weight: bold;
+}
+
+span:hover {
+    color: white;
+    background-color: green;
+}
+h3 {
+    background-color: tomato;
+    display: inline-block;
+    padding: 10px;
+    position: absolute;
+    bottom: 4px;
+    right: 0px;
+    color: mintcream;
+    text-transform: capitalize;
+    border-radius: 30px 0 0 0;
+}
+.content {
+    padding: 20px;
+}
+
+p {
+    font-size: 22px;
+    color: turquoise;
+    text-transform: capitalize;
+}
+.link {
+    display: inline-block;
+    margin-top: 1;
+    margin FONT-VARIANT: JIS04;
+}
+
+.link a {margin: 30px;}
+
+p {
+    margin-bottom: 30px;
+}
+.main{
+    background-color:blue;
+}
+.link a {
+    padding: 20px;
+    background-color: aliceblue;
+    color: blue;
+    border-radius: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+
+.link a:hover{
+    background-color: #45a049;
+    color: white;
+}
+.link {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
